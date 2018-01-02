@@ -14,3 +14,5 @@ Each user has their own account, managed with the browser Sessions object, which
 This app uses RESTful Routing patterns for Sessions, Users, Plans, and show pages for Nightlives, Activities, and Restaurants.
 
 To run, fork and clone this repository, open 'date-with-destiny/mod2-project/' in your console and start your rails server (type 'rails s' into your console). Navigate to the webpage your server specifies (often this will be localhost:3000), create an account, and start making dates!
+
+Created by github.com/annabush092 and github.com/deebnntt
