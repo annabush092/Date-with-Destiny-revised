@@ -1,5 +1,7 @@
 # Date-with-Destiny (revised)
 
+Demo:
+
 Created with Ruby on Rails, SQLite3, and uses data from the Foursquare API.
 
 A date-making app that is designed to help users make decisions on three date locations- an Activity, a Restaurant, and a Nightlife spot.
@@ -13,6 +15,7 @@ Each user has their own account, managed with the browser Sessions object, which
 
 This app uses RESTful Routing patterns for Sessions, Users, Plans, and show pages for Nightlives, Activities, and Restaurants.
 
-To run, fork and clone this repository, open 'date-with-destiny/mod2-project/' in your console and start your rails server (type 'rails s' into your console). Navigate to the webpage your server specifies (often this will be localhost:3000), create an account, and start making dates!
+To run, fork and clone this repository, open 'date-with-destiny-revised/date-with-destiny/' in your console and start your rails server (type 'rails s' into your console). Navigate to the webpage your server specifies (often this will be localhost:3000), create an account, and start making dates!
 
-Created by https://github.com/annabush092 and https://github.com/deebnntt
+Created by https://github.com/annabush092 and https://github.com/deebnntt.
+For original repo, see https://github.com/annabush092/date-with-destiny.
