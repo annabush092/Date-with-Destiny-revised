@@ -1,0 +1,27 @@
+<div>
+  <%  if @plan.errors.any? %>
+    <% @plan.errors.full_messages.each do |m| %>
+      <%= m %><br>
+    <% end %>
+  <% end %>
+  <% if @error %>
+    <%= @error %><br>
+  <% end %>
+
+
+<h1>Make a date with destiny...</h1>
+
+<%= form_tag plans_path, method: "post" do %>
+
+  <%= label_tag 'address' %><br>
+  <%= text_field_tag 'address' %><br>
+
+  <%= label_tag 'date' %><br>
+  <%= date_field_tag 'date' %><br>
+
+  <%= submit_tag 'DECIDE YOUR FATE' %>
+
+<% end %>
+<br>
+<br>
+</div>
