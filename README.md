@@ -1,6 +1,6 @@
 # Date-with-Destiny (revised)
 
-Demo:
+Demo: https://youtu.be/KMOuvCAflbw
 
 Created with Ruby on Rails, SQLite3, and uses data from the Foursquare API.
 
